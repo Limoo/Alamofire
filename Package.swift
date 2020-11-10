@@ -1,4 +1,5 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
+// The swift-tools-version declares the minimum version of Swift required to build this package.
 //
 //  Package.swift
 //
@@ -36,6 +37,5 @@ let package = Package(
         .target(
             name: "Alamofire",
             path: "Source")
-    ],
-    swiftLanguageVersions: [.v4, .v5]
+    ]
 )
